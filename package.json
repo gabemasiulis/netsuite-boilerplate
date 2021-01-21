@@ -1,6 +1,6 @@
 {
   "name": "starter-netsuite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Netsuite Boilerplate Repository",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Gabe Masiulis",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
-    "@hitc/netsuite-types": "github:CodeOfTheNorth/typings-suitescript-2.0#master",
+    "@hitc/netsuite-types": "^2020.2.15",
     "eslint": "^5.16.0",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",
