@@ -18,13 +18,18 @@
         "noUnusedLocals": true,
         "baseUrl": ".",
         "lib": ["es5", "es2015.promise", "dom", "es2015"],
+        "outDir": "FileCabinet/SuiteScripts",
+        "rootDir": "./src",
         "paths": {
             "N": ["node_modules/@hitc/netsuite-types/N"],
-            "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
+            "N/*": ["node_modules/@hitc/netsuite-types/N/*"],
+            "/src/*": ["src/*"]
         }
     },
     "compileOnSave": true,
+    "include": ["src/**/*"],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "FileCabinet"
     ]
 }

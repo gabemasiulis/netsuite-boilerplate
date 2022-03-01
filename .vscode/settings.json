@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.template.xml": "ftl"
+    },
+    "python.formatting.provider": "black"
+}

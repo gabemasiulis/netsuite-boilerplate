@@ -1,17 +1,22 @@
 {
   "name": "starter-netsuite",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Netsuite Boilerplate Repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -c .eslintrc.js --ext .ts src"
   },
   "author": "Gabe Masiulis",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
     "@hitc/netsuite-types": "^2020.2.15",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
     "eslint": "^5.16.0",
-    "tslint": "^5.16.0",
+    "eslint-config-prettier": "^8.4.0",
+    "tslint": "^5.20.1",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.4.3"
   }
