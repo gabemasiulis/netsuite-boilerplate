@@ -24,15 +24,15 @@
                 "shell": {}
             }
         },
-        {
-            "type": "npm",
-            "script": "lint",
-            "problemMatcher": [],
-            "label": "npm: lint",
-            "detail": "eslint -c .eslintrc.js --ext .ts src",
-            "runOptions": {
-                "runOn": "folderOpen"
-            },
-        }
+        // {
+        //     "type": "npm",
+        //     "script": "lint",
+        //     "problemMatcher": [],
+        //     "label": "npm: lint",
+        //     "detail": "eslint -c .eslintrc.js --ext .ts src",
+        //     "runOptions": {
+        //         "runOn": "folderOpen"
+        //     },
+        // }
     ]
 }
