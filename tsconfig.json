@@ -1,13 +1,6 @@
 {
     "compilerOptions": {
-        "plugins": [
-            {
-                "name": "tslint-language-service",
-                "alwaysShowRuleFailuresAsWarnings": false,
-                "configFile": "./tslint.json",
-                "disableNoUnusedVariableRule": false
-            }
-        ],
+        "plugins": [],
         "module": "amd",
         "target": "es5",
         "moduleResolution": "node",

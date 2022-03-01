@@ -26,7 +26,8 @@ module.exports = {
     },
     "plugins": [
         "@typescript-eslint",
-        "@typescript-eslint/tslint"
+        // remove, requires tslint
+        // "@typescript-eslint/tslint"
     ],
     "rules": {
         "@typescript-eslint/indent": [
@@ -130,54 +131,55 @@ module.exports = {
                 ]
             }
         ],
-        "@typescript-eslint/tslint/config": [
-            "error",
-            {
-                "rules": {
-                    "array-bracket-spacing": [
-                        true,
-                        "never"
-                    ],
-                    "block-spacing": true,
-                    "brace-style": [
-                        true,
-                        "1tbs",
-                        {
-                            "allowSingleLine": true
-                        }
-                    ],
-                    "no-else-return": true,
-                    "no-function-constructor-with-string-args": true,
-                    "object-curly-spacing": [
-                        true,
-                        "always"
-                    ],
-                    "object-shorthand-properties-first": true,
-                    "space-in-parens": [
-                        true,
-                        "never"
-                    ],
-                    "ter-arrow-parens": [
-                        true,
-                        "as-needed",
-                        {
-                            "requireForBlockBody": true
-                        }
-                    ],
-                    "ter-computed-property-spacing": true,
-                    "ter-func-call-spacing": true,
-                    "ter-indent": ["warn", true],
-                    "ter-prefer-arrow-callback": true,
-                    "whitespace": [
-                        true,
-                        "check-branch",
-                        "check-decl",
-                        "check-operator",
-                        "check-preblock",
-                        "check-separator"
-                    ]
-                }
-            }
-        ]
+        // remove, requires tslint
+        // "@typescript-eslint/tslint/config": [
+        //     "error",
+        //     {
+        //         "rules": {
+        //             "array-bracket-spacing": [
+        //                 true,
+        //                 "never"
+        //             ],
+        //             "block-spacing": true,
+        //             "brace-style": [
+        //                 true,
+        //                 "1tbs",
+        //                 {
+        //                     "allowSingleLine": true
+        //                 }
+        //             ],
+        //             "no-else-return": true,
+        //             "no-function-constructor-with-string-args": true,
+        //             "object-curly-spacing": [
+        //                 true,
+        //                 "always"
+        //             ],
+        //             "object-shorthand-properties-first": true,
+        //             "space-in-parens": [
+        //                 true,
+        //                 "never"
+        //             ],
+        //             "ter-arrow-parens": [
+        //                 true,
+        //                 "as-needed",
+        //                 {
+        //                     "requireForBlockBody": true
+        //                 }
+        //             ],
+        //             "ter-computed-property-spacing": true,
+        //             "ter-func-call-spacing": true,
+        //             "ter-indent": ["warn", true],
+        //             "ter-prefer-arrow-callback": true,
+        //             "whitespace": [
+        //                 true,
+        //                 "check-branch",
+        //                 "check-decl",
+        //                 "check-operator",
+        //                 "check-preblock",
+        //                 "check-separator"
+        //             ]
+        //         }
+        //     }
+        // ]
     }
 };
