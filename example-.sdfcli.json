@@ -1,0 +1,13 @@
+{
+    "projectName": "netsuite-boilerplate",
+    "environments": [
+        {
+            "name": "Netsuite Boilerplate",
+            "account": "TSTDRV1213855",
+            "url": "tstdrv1213855.app.netsuite.com",
+            "role": 3,
+            "email": "gabe@codeofthenorth.com",
+            "authid": "ns-starter"
+        }
+    ]
+}
