@@ -1,2 +1,5 @@
 node_modules*
-*.js
+*.attr.xml
+deploy.xml
+manifest.xml
+.sdfcli.json

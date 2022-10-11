@@ -1,6 +1,6 @@
 {
-  "name": "starter-netsuite",
-  "version": "1.0.1",
+  "name": "netsuite-boilerplate",
+  "version": "1.1.0",
   "description": "Netsuite Boilerplate Repository",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,14 @@
   "author": "Gabe Masiulis",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
-    "@hitc/netsuite-types": "^2020.2.15",
-    "eslint": "^5.16.0",
-    "tslint": "^5.16.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.4.3"
+    "@hitc/netsuite-types": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@oracle/suitecloud-unit-testing": "^1.2.1",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   }
 }

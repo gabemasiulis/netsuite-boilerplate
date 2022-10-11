@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.template.xml": "ftl"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+}
