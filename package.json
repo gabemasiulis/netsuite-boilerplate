@@ -1,21 +1,22 @@
 {
-  "name": "starter-netsuite",
+  "name": "netsuite-boilerplate",
   "version": "1.1.0",
   "description": "Netsuite Boilerplate Repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint -c .eslintrc.js --ext .ts src"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gabe Masiulis",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
-    "@hitc/netsuite-types": "^2020.2.15",
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^5.13.0",
-    "@typescript-eslint/parser": "^5.13.0",
-    "eslint": "^8.10.0",
-    "eslint-config-prettier": "^8.4.0",
-    "typescript": "^3.4.3"
+    "@hitc/netsuite-types": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@oracle/suitecloud-unit-testing": "^1.2.1",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   }
 }

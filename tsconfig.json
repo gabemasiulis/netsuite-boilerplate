@@ -1,13 +1,6 @@
 {
     "compilerOptions": {
-        "plugins": [
-            {
-                "name": "tslint-language-service",
-                "alwaysShowRuleFailuresAsWarnings": false,
-                "configFile": "./tslint.json",
-                "disableNoUnusedVariableRule": false
-            }
-        ],
+        "plugins": [],
         "module": "amd",
         "target": "es5",
         "moduleResolution": "node",
@@ -16,13 +9,13 @@
         "experimentalDecorators": true,
         "noImplicitUseStrict": true,
         "noUnusedLocals": true,
+        "allowJs": true,
         "baseUrl": ".",
-        "lib": ["es5", "es2015.promise", "dom", "es2015"],
+        "lib": ["es5", "es2015.promise", "dom"],
         "outDir": "FileCabinet/SuiteScripts",
-        "rootDir": "./src",
         "paths": {
-            "N": ["node_modules/@hitc/netsuite-types/N"],
-            "N/*": ["node_modules/@hitc/netsuite-types/N/*"],
+            "N": ["./node_modules/@hitc/netsuite-types/N"],
+            "N/*": ["./node_modules/@hitc/netsuite-types/N/*"],
             "/src/*": ["src/*"]
         }
     },
