@@ -2,8 +2,8 @@
     "compilerOptions": {
         "plugins": [],
         "module": "amd",
-        "target": "es5",
-        "moduleResolution": "node",
+        "target": "ESNext",
+        "moduleResolution": "NodeNext", // test relative file path imports
         "sourceMap": false,
         "newLine": "LF",
         "experimentalDecorators": true,
